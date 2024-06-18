@@ -1,0 +1,253 @@
+/*Aplica a <article> */
+
+.card {
+    /*! width: 350px; */
+    /*! height: 400px; */
+    /*mi codigo */
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    
+    
+    
+    width: calc(100%/3 - 17px);
+    /*! min-width: 220px; */
+    /*! max-width: 350px; */
+    /*! flex-shrink: 1; */
+    position: relative;
+}
+/* Aplica a todos los iconos */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #303030; /*RGB, Red 30, Green 30, Blue 30 */
+}
+
+.corazon img{
+    width: 33px;
+}
+
+.ojo img{
+    width: 36px;
+}
+
+header{
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /*es como el margin pero en flex */
+    padding: 10px 10px 0 0; 
+    align-items: center;
+    
+}
+
+h3{
+    color: white;
+    font-family:'Libre Franklin';
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+} 
+
+
+footer{
+    width: 350px;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: row;
+    padding: 0 0 25px 25px;
+    gap: 23px;
+}
+
+.fondo{
+    position: absolute;
+    z-index: -5;
+    text-align:center;
+    padding: 0;
+
+    width: 100%;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+
+.card:hover .fondo{
+    filter:brightness(80%);
+}
+
+.icon:hover{
+    background-color:chocolate;
+    
+
+}
+
+section{
+    width: 85%;
+
+    display: flex;
+    /*! align-items: flex-start; */
+    gap: 25px;
+    flex-wrap: wrap;
+    /*! padding: 0 0 0 90px; */
+   
+    
+   
+}
+/*
+.container article{
+    
+    margin-bottom: 25px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    
+   
+    
+
+    
+}*/
+
+.info{
+   height: 400px;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    visibility: visible;
+   width: 100%;
+}
+
+.card:hover .info{
+    opacity: 1;
+}
+
+
+
+
+nav ul li{
+    display:flex;
+    width: 200px;
+    list-style-type: none;
+    justify-content:center;
+    font-family: 'Libre Franklin';
+    font-size: 18px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecera{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 52px 0 0 90px;
+    
+
+    
+}
+
+h1{
+    font-family: 'Libre Franklin';
+    font-size: 32px;
+    font-weight: 600;
+    width: 430px;
+    height:78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+ 
+
+
+h1 span{
+font-size: 32px;
+color: darkgray;
+flex-direction: column;
+}
+
+h2{
+    width: 100%;
+    font-size:48px;
+    font-family: 'Libre Franklin';
+    padding: 47px 0 5px 90px;
+}
+
+h4{
+    font-size: 18px;
+    color: darkgray;
+    display: flex;
+    width: 100%;
+    padding: 0 0 0 90px;
+}
+    
+
+.menu{
+    display: flex;
+    width: 372px;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 71px 18px 0;
+    
+    
+}
+
+
+
+
+.banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner img, .banner picture{
+    width:100%;
+}
+
+.hamburguesa nav ul li{
+    width: 400px;
+    height: 400px;
+}
+
+.container{
+    
+    /*! width: 100%; */
+    /*! display: flex; */
+    /*! flex-wrap: wrap; */
+
+}
+
+.container .card{
+    /*! flex: 0 1 350px; */
+}
+
+
+

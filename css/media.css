@@ -1,0 +1,171 @@
+
+
+@media screen and (min-width:1080px){
+   .hamburguesa{
+    display:none;
+   }
+}
+
+@media screen and (min-width:834px) and (max-width:1080px){
+       nav ul li{
+        display:none;
+       
+    }
+
+
+    h1 {
+        font-size: 24px;
+        width: 196px;
+        height: 100px;
+        padding: 23px 0 25px 25px;
+    }
+    
+    h1 span{
+        font-size: 24px;
+        
+        
+    }
+
+    article{
+        max-width: 350px;
+        min-width: 200px;
+    }
+
+}
+
+
+@media screen and (min-width:360px) and (max-width:850px) {
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+} 
+
+.cabecera{
+    padding: 0 25px 25px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px; 
+    padding: 23px 0 0 25px; 
+    align-items: center;
+    font-size: 24px;
+    
+    
+   
+}
+ h1 {
+    font-size: 24px;
+    width: 196px;
+    height: 100px;
+    padding: 23px 0 0 25px;
+    
+}
+
+h1 span{
+    font-size: 24px;
+    
+    
+}
+
+    nav ul li{
+        display:none;
+       
+    }
+
+
+        .banner {
+        display: block;
+        width: 360px;
+        height: 420px;
+        
+    }
+
+section{
+    padding: 0 20px 20px 20px;
+}
+h2{
+    font-size: 40px;
+    width:281px;
+    height: 48px;
+    padding:40px 59px 15px 20px;
+}
+
+.cabecera div{
+    width: auto;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:360px){
+    .cabecera{
+        padding: 0 25px 10px 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 10px; 
+        padding: 23px 0 0 25px; 
+        align-items: center;
+        font-size: 24px;
+        
+        
+       
+    }
+     h1 {
+        font-size: 24px;
+        width: 196px;
+        height: 100px;
+        padding: 23px 0 0 25px;
+        
+    }
+    
+    h1 span{
+        font-size: 24px;
+        
+        
+    }
+    
+        nav ul li{
+            display:none;
+           
+        }
+    
+    
+            .banner {
+            display: block;
+            width: 360px;
+            height: 420px;
+            
+        }
+    
+    section{
+        padding: 0 20px 20px 20px;
+    }
+    h2{
+        font-size: 40px;
+        width:281px;
+        height: 48px;
+        padding:40px 59px 15px 20px;
+    }
+    
+    .banner img, .banner picture{
+        width:100%;
+    }
+    
+
+
+    }
